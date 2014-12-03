@@ -53,3 +53,26 @@ int main(int argc, const char * argv[])
     }
     return 0;
 }
+
+void createProcessVoiture(int nombreVoiture){
+  int compteur;
+  int tabPid[nombreVoiture];
+
+	for (compteur = 0 ; compteur <= nombreVoiture ; compteur++){
+		switch(tabPid[compteur] = fork()){
+			case -1: //Errerur
+				break;
+			case 0:
+				printf("je suis la voiture numero : %d", compteur); //Fils
+				break;
+			default:
+				 //Pere
+				printf("Constructeur");
+		}
+
+	}
+}
+void createProcessBarriere(){
+}
+void createProcessCapteur(){
+}
