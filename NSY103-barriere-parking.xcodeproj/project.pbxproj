@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		9CAC60D51A2F012A00F0A6D6 /* NSY103-barriere-parking */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "NSY103-barriere-parking"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CAC60D81A2F012A00F0A6D6 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		9CAC60DF1A2F043200F0A6D6 /* Projets_Barriere.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Projets_Barriere.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +42,7 @@
 		9CAC60CC1A2F012A00F0A6D6 = {
 			isa = PBXGroup;
 			children = (
+				9CAC60DF1A2F043200F0A6D6 /* Projets_Barriere.pdf */,
 				9CAC60D71A2F012A00F0A6D6 /* NSY103-barriere-parking */,
 				9CAC60D61A2F012A00F0A6D6 /* Products */,
 			);
